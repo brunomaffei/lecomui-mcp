@@ -4,9 +4,7 @@ export const DI_SYMBOLS: InjectionTokens = {
 
 }
 
-type DI_RETURN_TYPES = {
-
-}
+type DI_RETURN_TYPES = Record<string, unknown>
 
 const container = createContainer();
 

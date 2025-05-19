@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
   let body;
   try {
     body = await req.json();
-  } catch (err) {
+  } catch {
     return NextResponse.json(
       { error: 'JSON inválido ou ausente. Envie {"method": "initialize"} ou {"method": "..."}' },
       { status: 400 }
@@ -48,7 +48,11 @@ export async function POST(req: NextRequest) {
       name: comp.displayName,
       description: comp.description,
       type: 'tool',
-      properties: Object.entries(comp.props || {}).map(([name, prop]: any) => ({
+      properties: Object.entries(comp.props || {}).map(([name, prop]: [string, {
+        type?: { name: string };
+        defaultValue?: { value: unknown };
+        description?: string;
+      }]) => ({
         name,
         type: prop.type?.name || 'unknown',
         defaultValue: prop.defaultValue?.value || null,

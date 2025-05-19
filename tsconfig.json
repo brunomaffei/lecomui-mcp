@@ -18,14 +18,13 @@
         "name": "next"
       }
     ],
-    "types": ["vitest/globals", "jest-extended.d.ts"],
+    "types": ["vitest/globals", "jest-extended"],
     "paths": {
       "@/*": ["./*"]
     }
   },
   "files": [
-    "global.d.ts",
-    "jest-extended.d.ts"
+    "global.d.ts"
   ],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "./vitest.setup", "scripts/generate-contexts.ts"],
   "exclude": ["node_modules"]
