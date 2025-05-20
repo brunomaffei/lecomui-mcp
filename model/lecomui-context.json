@@ -1,65 +1,10 @@
 [
   {
-    "id": "BaseAxisProps",
-    "name": "BaseAxisProps",
-    "description": "The props definition of base axis",
-    "type": "tool",
-    "properties": []
-  },
-  {
     "id": "Bar",
     "name": "Bar",
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "AdaptChildClipboardEventHandler<any, SVGPathElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "AdaptChildClipboardEventHandler<any, SVGPathElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "AdaptChildClipboardEventHandler<any, SVGPathElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "AdaptChildClipboardEventHandler<any, SVGPathElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "AdaptChildClipboardEventHandler<any, SVGPathElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "AdaptChildClipboardEventHandler<any, SVGPathElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "AdaptChildCompositionEventHandler<any, SVGPathElement>",
@@ -3359,54 +3304,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<SVGRectElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<SVGRectElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<SVGRectElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<SVGRectElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<SVGRectElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<SVGRectElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<SVGRectElement>",
         "defaultValue": null,
@@ -6330,54 +6227,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<SVGTextElement>",
@@ -10449,12 +10298,6 @@
         "description": ""
       },
       {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "stroke",
         "type": "string",
         "defaultValue": null,
@@ -11167,48 +11010,6 @@
         "type": "string",
         "defaultValue": null,
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<SVGTextElement>",
-        "defaultValue": null,
-        "description": ""
       },
       {
         "name": "onCompositionEnd",
@@ -12547,48 +12348,6 @@
       {
         "name": "isLoading",
         "type": "boolean",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
         "defaultValue": null,
         "description": ""
       },
@@ -15457,12 +15216,6 @@
         "description": ""
       },
       {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "stroke",
         "type": "string",
         "defaultValue": null,
@@ -16175,48 +15928,6 @@
         "type": "string",
         "defaultValue": null,
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
       },
       {
         "name": "onCompositionEnd",
@@ -17859,48 +17570,6 @@
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -19539,48 +19208,6 @@
         "type": "string",
         "defaultValue": null,
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
       },
       {
         "name": "onCompositionEnd",
@@ -21223,48 +20850,6 @@
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -22903,48 +22488,6 @@
         "type": "string",
         "defaultValue": null,
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
       },
       {
         "name": "onCompositionEnd",
@@ -24587,48 +24130,6 @@
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -26269,48 +25770,6 @@
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -27371,54 +26830,6 @@
       {
         "name": "onClick",
         "type": "(data: Payload, index: number, event: MouseEvent<Element, MouseEvent>) => void",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "AdaptChildClipboardEventHandler<any, ReactElement<unknown, string | JSXElementConstructor<any>>>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "AdaptChildClipboardEventHandler<any, ReactElement<unknown, string | JSXElementConstructor<any>>>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "AdaptChildClipboardEventHandler<any, ReactElement<unknown, string | JSXElementConstructor<any>>>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "AdaptChildClipboardEventHandler<any, ReactElement<unknown, string | JSXElementConstructor<any>>>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "AdaptChildClipboardEventHandler<any, ReactElement<unknown, string | JSXElementConstructor<any>>>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "AdaptChildClipboardEventHandler<any, ReactElement<unknown, string | JSXElementConstructor<any>>>",
         "defaultValue": null,
         "description": ""
       },
@@ -30523,48 +29934,6 @@
         "description": ""
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLButtonElement>",
         "defaultValue": null,
@@ -32401,48 +31770,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLButtonElement>",
         "defaultValue": null,
@@ -34155,48 +33482,6 @@
         "description": ""
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -35885,48 +35170,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLParagraphElement>",
         "defaultValue": null,
@@ -37572,48 +36815,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -39287,48 +38488,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLHeadingElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLHeadingElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLHeadingElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLHeadingElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLHeadingElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLHeadingElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLHeadingElement>",
         "defaultValue": null,
@@ -40974,48 +40133,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLButtonElement>",
@@ -42761,48 +41878,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -44472,48 +43547,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -46263,48 +45296,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -47950,48 +46941,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -49656,48 +48605,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -51371,48 +50278,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -53070,48 +51935,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -54776,48 +53599,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -56490,48 +55271,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -58263,48 +57002,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -59968,48 +58665,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLButtonElement>",
@@ -61716,48 +60371,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLElement>",
@@ -64047,48 +62660,6 @@
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLParagraphElement>",
         "defaultValue": null,
@@ -65729,48 +64300,6 @@
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -66762,48 +65291,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLLabelElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLLabelElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLLabelElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLLabelElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLLabelElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLLabelElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLLabelElement>",
@@ -69111,48 +67598,6 @@
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLParagraphElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLParagraphElement>",
         "defaultValue": null,
@@ -70183,48 +68628,6 @@
       {
         "name": "sufixInset",
         "type": "ReactNode",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLInputElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLInputElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLInputElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLInputElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLInputElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLInputElement>",
         "defaultValue": null,
         "description": ""
       },
@@ -73207,12 +71610,6 @@
         "description": ""
       },
       {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "stroke",
         "type": "string",
         "defaultValue": null,
@@ -73925,48 +72322,6 @@
         "type": "string",
         "defaultValue": null,
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
       },
       {
         "name": "onCompositionEnd",
@@ -76125,12 +74480,6 @@
         "description": ""
       },
       {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "stroke",
         "type": "string",
         "defaultValue": null,
@@ -76843,48 +75192,6 @@
         "type": "string",
         "defaultValue": null,
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
       },
       {
         "name": "onCompositionEnd",
@@ -79049,12 +77356,6 @@
         "description": ""
       },
       {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "stroke",
         "type": "string",
         "defaultValue": null,
@@ -79767,48 +78068,6 @@
         "type": "string",
         "defaultValue": null,
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
       },
       {
         "name": "onCompositionEnd",
@@ -81547,48 +79806,6 @@
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLButtonElement>",
         "defaultValue": null,
@@ -82672,48 +80889,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLUListElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLUListElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLUListElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLUListElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLUListElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLUListElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLUListElement>",
@@ -84354,48 +82529,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLLIElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLLIElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLLIElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLLIElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLLIElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLLIElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLLIElement>",
@@ -86074,48 +84207,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -87871,48 +85962,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLButtonElement>",
         "defaultValue": null,
@@ -89619,48 +87668,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -91348,48 +89355,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLButtonElement>",
@@ -94273,12 +92238,6 @@
         "description": ""
       },
       {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "stroke",
         "type": "string",
         "defaultValue": null,
@@ -94991,48 +92950,6 @@
         "type": "string",
         "defaultValue": null,
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
       },
       {
         "name": "onCompositionEnd",
@@ -96026,48 +93943,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -97726,48 +95601,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -99507,48 +97340,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -101285,48 +99076,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -102972,48 +100721,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -104679,48 +102386,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -106366,48 +104031,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
@@ -108055,48 +105678,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -109743,48 +107324,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -111430,48 +108969,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLButtonElement>",
@@ -113187,48 +110684,6 @@
       {
         "name": "placeholder",
         "type": "ReactNode",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLSpanElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLSpanElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLSpanElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLSpanElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLSpanElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLSpanElement>",
         "defaultValue": null,
         "description": ""
       },
@@ -116049,12 +113504,6 @@
         "description": ""
       },
       {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "stroke",
         "type": "string",
         "defaultValue": null,
@@ -116767,48 +114216,6 @@
         "type": "string",
         "defaultValue": null,
         "description": "Defines the human readable text alternative of aria-valuenow for a range widget."
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
       },
       {
         "name": "onCompositionEnd",
@@ -117802,48 +115209,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLButtonElement>",
@@ -119569,48 +116934,6 @@
     "type": "tool",
     "properties": [
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -121244,54 +118567,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "string",
-        "type": "string | number",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<SVGSVGElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<SVGSVGElement>",
@@ -124175,48 +121450,6 @@
         "description": ""
       },
       {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLDivElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLDivElement>",
         "defaultValue": null,
@@ -125986,48 +123219,6 @@
     "description": "",
     "type": "tool",
     "properties": [
-      {
-        "name": "dangerouslySetInnerHTML",
-        "type": "{ __html: string | TrustedHTML; }",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopy",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCopyCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCut",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onCutCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPaste",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
-      {
-        "name": "onPasteCapture",
-        "type": "ClipboardEventHandler<HTMLButtonElement>",
-        "defaultValue": null,
-        "description": ""
-      },
       {
         "name": "onCompositionEnd",
         "type": "CompositionEventHandler<HTMLButtonElement>",
