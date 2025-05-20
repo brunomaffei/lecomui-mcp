@@ -6,7 +6,7 @@ export async function POST(req: NextRequest) {
   let body;
   try {
     body = await req.json();
-  } catch (err) {
+  } catch {
     return NextResponse.json({ error: 'JSON inválido ou ausente.' }, { status: 400 });
   }
 
@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
     const data = JSON.parse(raw);
 
     return NextResponse.json(data);
-  } catch (err) {
+  } catch {
     return NextResponse.json(
       { error: 'Arquivo lecomui-context.json não encontrado na Vercel.' },
       { status: 500 }
