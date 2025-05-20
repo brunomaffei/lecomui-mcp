@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
   try {
     body = await req.json();
   } catch (err) {
-    return NextResponse.json({ error: 'JSON inválido' }, { status: 400 });
+    return NextResponse.json({ error: `JSON inválido: ${err}` }, { status: 400 });
   }
 
   const { method, id } = body;
