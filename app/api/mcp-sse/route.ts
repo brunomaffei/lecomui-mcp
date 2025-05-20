@@ -6,21 +6,36 @@ export async function GET(req: NextRequest) {
   const encoder = new TextEncoder();
 
   const stream = new ReadableStream({
-    start(controller) {
+    async start(controller) {
       const contextPath = path.resolve(process.cwd(), 'model/lecomui-context.json');
-      const raw = fs.readFileSync(contextPath, 'utf-8');
-      const message = `data: ${raw}\n\n`;
-      controller.enqueue(encoder.encode(message));
+
+      const sendContexts = () => {
+        try {
+          const raw = fs.readFileSync(contextPath, 'utf-8');
+          const contexts = JSON.parse(raw);
+
+          const message = {
+            jsonrpc: "2.0",
+            method: "context/refresh",
+            params: {
+              contexts
+            }
+          };
+
+          controller.enqueue(encoder.encode(`data: ${JSON.stringify(message)}\n\n`));
+        } catch (e) {
+          console.error('[SSE ERROR]', e);
+        }
+      };
+
+      sendContexts();
 
       const interval = setInterval(() => {
-        const data = fs.readFileSync(contextPath, 'utf-8');
-        controller.enqueue(encoder.encode(`data: ${data}\n\n`));
+        sendContexts();
       }, 30000);
 
-      req.signal.addEventListener('abort', () => {
-        clearInterval(interval);
-      });
-    },
+      req.signal.addEventListener('abort', () => clearInterval(interval));
+    }
   });
 
   return new Response(stream, {
@@ -28,6 +43,6 @@ export async function GET(req: NextRequest) {
       'Content-Type': 'text/event-stream',
       'Cache-Control': 'no-cache',
       Connection: 'keep-alive',
-    },
+    }
   });
 }
