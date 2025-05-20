@@ -5,11 +5,12 @@
   "type": "module",
   "files": [
     "dist",
-    "dist/index.d.ts"
+    "dist/index.d.ts",
+    "dist/components"
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
